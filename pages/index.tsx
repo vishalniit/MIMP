@@ -8,7 +8,7 @@ import Minting from '../components/Minting';
 import Faq from '../components/Faq';
 import Roadmap from '../components/Roadmap';
 import Team from '../components/Team';
-import topImage from '../public/assets/MIMP-1920-600.gif';
+import topImage from '../public/assets/MIMP-Hidden-1920-600.gif';
 
 const Home: NextPage = () => {
   return (
