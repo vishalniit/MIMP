@@ -7,7 +7,7 @@ type Props = {
 
 const meta = {
   description: `${process.env.NEXT_PUBLIC_NFT_NAME} is an NFT collection of 10,000 unique characters.`,
-  ogImagePath: '/assets/card-image.png',
+  ogImagePath: '/assets/MIMP-Hidden-1200-600.gif',
 };
 
 export default function Meta({ pageTitle }: Props) {
