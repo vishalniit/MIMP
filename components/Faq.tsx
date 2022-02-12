@@ -10,11 +10,11 @@ export default function Faq() {
           </p>
           <h3 className="text-2xl mb-2">What is current state of this project?</h3>
           <p>
-            As noted in Roadmap, it is yet to be revealed state, which means people can mint for surprise NFTs. Character details & other metadata will be available once project is not hidden.
+            As noted in Roadmap it is in hidden state which means people can mint for surprise NFTs. Character details & other metadata will be available once project is revealed at opensea.
           </p>
           <h3 className="text-2xl mb-2">Tell us more about developer or creator of this project?</h3>
           <p>
-            They want to be anonymous, but they is PRIDE member & will be available to meet in upcoming Pride Party this year. From sun sign they is <a href="https://en.wikipedia.org/wiki/Pisces_(astrology)" className="text-blue-600 visited:text-purple-600 ...">piscian</a>, just like other 
+            They want to be anonymous, but they is PRIDE member & will be available to meet in upcoming Pride Party this year. From sun sign they is <a href="https://en.wikipedia.org/wiki/Pisces_(astrology)" className="text-blue-600 visited:text-purple-600 ...">piscian</a>, live in Ohio, USA. 
           </p>
         </div>
       </div>
