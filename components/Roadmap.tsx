@@ -6,7 +6,7 @@ export default function Roadmap() {
       <h2 className="text-4xl mb-4">Roadmap</h2>
       <Image
         src={Creator}
-        alt="random dev"
+        alt="Please wait for gif to load, Display roadmap of this project"
         width={1200}
         height={600}
         className="flex items-center grow"
