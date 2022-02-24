@@ -16,7 +16,7 @@ export default function Faq() {
               aria-label={`${process.env.NEXT_PUBLIC_NFT_NAME} on OpenSea`}
               rel="noopener noreferrer"
               target="_blank"
-              data-tip="OpenSea" className="text-green-600 visited:text-white-600 ...">opensea here.</a>
+              data-tip="OpenSea" className="text-green-600 visited:text-white-600 ...">OpenSea here.</a>
           </p>
           <h3 className="text-2xl mb-2">How much is the minting price?</h3>
           <p>
@@ -25,7 +25,12 @@ export default function Faq() {
           </p>
           <h3 className="text-2xl mb-2">What is current state of this project?</h3>
           <p>
-            As noted in Roadmap it is in hidden state which means people can mint for surprise NFTs. Character details & other metadata will be available once project is revealed at opensea.
+            Update - 23rd Feburary 2022: Now this NFT collection is available to be minted with existing NFT available to be seen at <a href={process.env.NEXT_PUBLIC_OPENSEA_URL}
+              aria-label={`${process.env.NEXT_PUBLIC_NFT_NAME} on OpenSea`}
+              rel="noopener noreferrer"
+              target="_blank"
+              data-tip="OpenSea" className="text-green-600 visited:text-white-600 ...">OpenSea.</a>
+            Initial - 13 Feburary 2022: Earlier this was in hidden state which means people can mint for surprise NFTs. Character details & other metadata will be available once project is revealed at OpenSea.
           </p>
           <h3 className="text-2xl mb-2">Tell us more about developer or creator of this project?</h3>
           <p>

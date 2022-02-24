@@ -8,7 +8,8 @@ import Minting from '../components/Minting';
 import Faq from '../components/Faq';
 import Roadmap from '../components/Roadmap';
 import Team from '../components/Team';
-import topImage from '../public/assets/MIMP-Hidden-1920-600.gif';
+import OpenSeaEmbed from '../components/OpenSeaEmbed';
+import topImage from '../public/assets/MIMP-1920-600.gif';
 
 const Home: NextPage = () => {
   return (
@@ -45,6 +46,12 @@ const Home: NextPage = () => {
       <div className="bg-yellow-900 py-8">
         <Prose>
           <Roadmap />
+        </Prose>
+      </div>
+
+      <div className="bg-yellow-900 py-8">
+        <Prose>
+          <OpenSeaEmbed />
         </Prose>
       </div>
 
